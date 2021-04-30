@@ -109,12 +109,6 @@ const Footer: React.SFC<FooterProps> = () => {
 
             `}</style>
             <p>© 2021 Pela, Inc. All rights reserved.</p>
-            <ul>
-                <li>Blog</li>
-                <li>Terms & Conditions</li>
-                <li>Privacy</li>
-                <li>Contact Us</li>
-            </ul>
             <div style={{display: 'grid', alignItems: 'center', gridTemplateColumns: 'repeat(6, 1fr)', gap: '1rem'}}>
                 <FBIcon />
                 <InstaIcon />
